@@ -16,6 +16,7 @@ const useStyles = makeStyles({
   },
   card: {
     width: 585,
+    height: 515,
     padding: '2rem 4rem',
     borderRadius: '36.84px',
   },

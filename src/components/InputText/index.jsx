@@ -16,17 +16,20 @@ const CssTextField = withStyles({
       color: theme.blue.dark,
       right: 0,
       textAlign: 'center',
-      fontSize: 12,
+      fontSize: 14,
     },
     '& .MuiInputLabel-shrink': {
       transform: 'translate(0, 0) scale(1)',
-      fontSize: 10,
+      fontSize: 12,
     },
     '& .MuiInput-input': {
       textAlign: 'center',
     },
     '& .MuiInput-underline:before': {
       borderBottomColor: theme.gray.light,
+    },
+    '& .MuiInput-underline:hover:not(.Mui-disabled):before': {
+      borderBottom: '1px solid rgba(0, 0, 0, 0.87)',
     },
     '& .MuiInput-underline:after': {
       borderBottomColor: theme.blue.dark,

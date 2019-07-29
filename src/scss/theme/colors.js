@@ -2,14 +2,14 @@ const theme = {
   blue: {
     light: '#63DEFA',
     main: '#0093FC',
-    dark: '#0068E1',
-    darker: 'rgba(0,81,204)',
+    dark: '#0051CC',
+    darker: '#022D6E',
   },
   red: {
     main: '#FF005D',
   },
   gray: {
-    light: '#d8d8d8',
+    light: '#CDD0D4',
     main: '#8d8c8c',
     dark: '#575757',
   },
