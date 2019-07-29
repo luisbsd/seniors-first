@@ -1,0 +1,31 @@
+// Base...
+@import "base/normalize.scss";
+
+// Partials
+@import "./variables";
+@import "./utility";
+@import "./mixins";
+
+// Components...
+
+// Containers...
+@import "./containers/Login.scss";
+
+// Include all Fonts
+
+// Main Styles
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+
+  .hero-image {
+    background-image: url("/assets/BG.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.Login {
+  height: 100vh;
+  box-sizing: border-box;
+  position: relative;
+
+  &__grid {
+    align-content: center;
+    height: 100%;
+  }
+
+  &__forgot {
+    color: $main-blue;
+    text-align: center;
+    font-size: 10px;
+    line-height: 14px;
+    border: 0;
+    background-color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+}
