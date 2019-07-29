@@ -14,11 +14,19 @@
 // Include all Fonts
 
 // Main Styles
+@import url("https://use.typekit.net/zme3hye.css");
 
 body,
 html {
   height: 100%;
-  margin: 0;
+  font-family: fieldwork, sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal;
+  button {
+    font-family: fieldwork, sans-serif !important;
+    font-weight: 600 !important;
+    font-style: normal;
+  }
 
   .hero-image {
     background-image: url("/assets/BG.svg");

@@ -9,6 +9,9 @@ const useStyles = makeStyles({
     textAlign: 'center',
     fontSize: 42,
     marginBottom: '1rem',
+    fontFamily: 'fieldwork, sans-serif',
+    fontWeight: 600,
+    fontStyle: 'normal',
   },
 });
 
